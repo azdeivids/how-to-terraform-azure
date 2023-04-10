@@ -1,1 +1,25 @@
-Templates for deploying basic azure rousources.
+# how-to-terraform-azure
+
+Templates for deploying basic azure resources.g
+
+## Terraform command reference ##
+
+| Command | Description |
+| --- | --- |
+| `terraform <command> -help` | Get help on any specific terraform command |
+| `terraform fmt` | Format .tf files per HCL standard |
+| `terraform init` | Prep the directory and initialize the backend |
+| `terraform plan` | Generate and execute plan showcasing actions to be taken during deployment |
+| `terraform apply` | Create and/or update infrastructure |
+| `terraform destroy` | Destroy terraform managed infrastructure |
+
+## Terraform resources ##
+### Documentation ###
+####  Hashicorp ####
+* [azurerm provider documentation](https://www.terraform.io/docs/providers/azurerm/index.html)
+* [azurerm provider github examples](https://github.com/hashicorp/terraform-provider-azurerm)
+* [Terraform language documentation](https://developer.hashicorp.com/terraform/language)
+#### Azure ####
+* [Azure Terraform Learn](https://learn.microsoft.com/en-us/azure/developer/terraform/)
+* [Azure Terraform Quickstart Templates](https://github.com/Azure/terraform/tree/master/quickstart)
+.
