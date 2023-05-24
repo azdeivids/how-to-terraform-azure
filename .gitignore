@@ -1,4 +1,3 @@
-**/aws-tf-demos/*
 **/.terraform/*
 *.tfstate
 *.tfstate.*
